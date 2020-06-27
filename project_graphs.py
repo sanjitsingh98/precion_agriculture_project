@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set_style("darkgrid")
-a=pd.read_csv("precision.csv")
+a=pd.read_csv("DB_2.csv")
 
 plt.subplot(2,2,1)
 plt.plot(a["Date"],a["Soil Moisture Mean(%)"],"r",lw=2)
