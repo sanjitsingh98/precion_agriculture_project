@@ -72,4 +72,4 @@ print(o)
 y['Avg Motor Running Time in minutes']=o
 print(y)
 y['Number of times motor switched ON']=s1
-y.to_csv('precision.csv')
+y.to_csv('DB_2.csv')
