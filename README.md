@@ -4,5 +4,6 @@ DB_1-realtime values;
 DB_2-modified database with average of each parameter grouped by date;
 project_convert-python code to modify the database using pandas;
 project_graphs-python code to visualize the data;
+pie_chart_project-pie chart generation code;
 
 NOTE: The main purpose of this repository is to understand how data analysis and visulaization is done on databases. Please do not focus much on the database values in DB_1 as some of them might not be very accurate.
