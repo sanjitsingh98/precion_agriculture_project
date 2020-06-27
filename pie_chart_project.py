@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_context('notebook',font_scale=1.5)
-a=pd.read_csv("agrin.csv")
+a=pd.read_csv("DB_2.csv")
 c=a[a['Date']=='06-03-2020']
 c1=c[c['Ph']>7]
 x=c1['Ph'].count()
